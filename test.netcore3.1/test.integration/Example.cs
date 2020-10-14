@@ -7,7 +7,7 @@ namespace test.integration
     public class Example
     {
         [Fact]
-        public async Task Test1()
+        public void Test1()
         {
             TestServer server = new TestServer(Program.CreateHostBuilder(new string[] { })
                 .ConfigureTestServices(collection =>
